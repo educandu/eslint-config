@@ -1,0 +1,41 @@
+{
+  "name": "@educandu/eslint-config",
+  "version": "0.0.0",
+  "description": "ESLint configuration shared between educandu projects",
+  "type": "module",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "keywords": [
+    "educandu",
+    "eslint",
+    "eslint"
+  ],
+  "license": "MIT",
+  "author": "Educandu Team <team@educandu.dev>",
+  "homepage": "https://github.com/educandu/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/educandu/eslint-config"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@educandu/dev-tools": "^6.0.0",
+    "@vitest/coverage-c8": "^0.25.8",
+    "del": "^7.0.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gulp": "^4.0.2",
+    "react": "^18.2.0",
+    "vitest": "^0.25.8"
+  },
+  "peerDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
