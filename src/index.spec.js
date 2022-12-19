@@ -1,6 +1,6 @@
 import url from 'node:url';
 import { ESLint } from 'eslint';
-import eslintConfig from './index.js';
+import eslintConfig from './index.cjs';
 import { promises as fs } from 'node:fs';
 import { beforeEach, describe, expect, it } from 'vitest';
 

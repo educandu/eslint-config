@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "ESLint configuration shared between educandu projects",
   "type": "module",
-  "exports": "./src/index.js",
+  "exports": "./src/index.cjs",
   "engines": {
     "node": "^18.0.0"
   },
