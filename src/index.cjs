@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:import/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended'
   ],
@@ -23,7 +22,6 @@ module.exports = {
     }
   },
   plugins: [
-    'import',
     'react',
     'react-hooks'
   ],
@@ -45,8 +43,6 @@ module.exports = {
     'semi': ['error', 'always'],
     'space-before-function-paren': ['error', { 'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always' }],
     'quotes': ['error', 'single'],
-    'import/extensions': ['error', 'ignorePackages'],
-    'import/no-unresolved': ['error', { 'ignore': ['^vitest/config$'] }],
     'react/jsx-closing-bracket-location': [1, 'props-aligned'],
     'react/jsx-fragments': ['error', 'element'],
     'react/jsx-handler-names': ['error', { 'eventHandlerPrefix': '(handle)', 'eventHandlerPropPrefix': '(on|before|after)' }],
