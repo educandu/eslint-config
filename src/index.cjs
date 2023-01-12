@@ -45,6 +45,7 @@ module.exports = {
     'line-comment-position': ['off'],
     'linebreak-style': ['off'],
     'max-classes-per-file': ['off'],
+    'max-depth': ['off'],
     'max-len': ['off'],
     'max-lines': ['off'],
     'max-lines-per-function': ['off'],
@@ -113,6 +114,7 @@ module.exports = {
     'react/no-set-state': ['off'],
     'react/require-optimization': ['off'],
     'react/sort-prop-types': ['off'],
+    'react/sort-default-props': ['off'],
     'react/static-property-placement': ['off'],
     'react-hooks/rules-of-hooks': ['error'],
     'react-hooks/exhaustive-deps': ['error']
