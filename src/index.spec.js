@@ -10,7 +10,7 @@ const testFilesDir = url.fileURLToPath(new URL('./test-files', import.meta.url))
 // we pretend towards eslint that the test files actually come from here:
 const pretendtestFilesDir = url.fileURLToPath(new URL('./non-ignored-test-files', import.meta.url));
 
-describe ('index', () => {
+describe('index', () => {
   let eslint;
 
   beforeEach(() => {
